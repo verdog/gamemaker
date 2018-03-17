@@ -1,0 +1,14 @@
+- sprites
+- enemies
+	make it possible to die lol
+- weapons
+- planets menu
+
+Left mouse: Place edit block
+Right mouse: Delete edit block (note: to delete a solid block, you must place an air block. blue checkerboard pattern)
+Middle mouse: cycle through edit blocks, can also use the menu
+Left + Right mouse: position the player
+
+C: "Commit" edit blocks.
+F: Fly
+R: Reset player

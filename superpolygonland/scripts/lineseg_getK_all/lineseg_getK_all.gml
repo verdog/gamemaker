@@ -1,6 +1,6 @@
 /// lineseg_getK_all(x1, y1, x2, y2)
 /*
- * compares the given line segment with all wallygon line segments in the room, and retruns the
+ * compares the given line segment with all wallygon line segments in the room, and returns the
  * proper length.
 */
 
@@ -16,7 +16,8 @@ for (var i = 0; i < ds_list_size(wallygons); i++) {
 	var sides = wallygons[| i].sides;
 	for (var j = 0; j < ds_list_size(wallygons[| i].points_x); j++) {
 		
-		k = lineseg_getK(ox, oy,
+		k = lineseg_getK(
+				ox, oy,
 				ex, ey,
 				wallygons[| i].points_x[| j], wallygons[| i].points_y[| j],
 				wallygons[| i].points_x[| (j+1)%sides], wallygons[| i].points_y[| (j+1)%sides]);

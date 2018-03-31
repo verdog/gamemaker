@@ -12,9 +12,9 @@ surface_set_target(sr_vis) {
 	draw_clear_alpha(c_white, 1);
 	draw_set_color(c_black);
 	draw_visible_area();
-	x = dummy.x;
-	y = dummy.y;
-	draw_visible_area();
+	//x = dummy.x;
+	//y = dummy.y;
+	//draw_visible_area();
 } surface_reset_target();
 
 gpu_set_blendmode(bm_subtract);

@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "d45098d3-9028-47cb-bdf2-c27223a115a6",
+            "Value": {
+                "id": "024d1116-0976-4185-b389-5430a0c819e0",
+                "resourcePath": "scripts\\bounding_box_intersect\\bounding_box_intersect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ec2e0dc1-cc98-4c31-9250-e007a8cc1e1b",
             "Value": {
                 "id": "a384a74d-7849-476b-85ec-c7f4e0b320d5",
@@ -292,7 +300,8 @@
         "4091bc2f-47ef-45cf-8406-c6e3f83a08a6",
         "5f650c55-c20b-40c9-812e-2a41656bbf8d",
         "12b6c647-71bf-495e-8a0d-4edc4610de70",
-        "c1026bdc-fe6f-4c04-b094-c71a729fff91"
+        "c1026bdc-fe6f-4c04-b094-c71a729fff91",
+        "d45098d3-9028-47cb-bdf2-c27223a115a6"
     ],
     "tutorial": ""
 }

@@ -1,6 +1,6 @@
 randomize();
 
-for (var i=0; i<6; i++) {
+for (var i=0; i<12; i++) {
 	instance_create_depth(irandom(room_width), irandom(room_height), -50, obj_wallygon);	
 }
 

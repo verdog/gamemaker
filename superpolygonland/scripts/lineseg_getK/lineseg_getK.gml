@@ -10,10 +10,6 @@
  * see: ncase.me/sight-and-light/
 */
 
-if (keyboard_check(ord("K"))) {
-	var brk = true;
-}
-
 // r stands for ray
 var r_px = argument0;
 var r_py = argument1;
@@ -25,6 +21,14 @@ var s_px = argument4;
 var s_py = argument5;
 var s_dx = argument6 - argument4;
 var s_dy = argument7 - argument5;
+
+// check if two lines' bounding boxes intersect
+if (!bounding_box_intersect(argument0,argument1,
+							argument2,argument3,
+							argument4,argument5,
+							argument6,argument7)) {
+	return -1;
+}
 
 // check if two lines are parallel
 // if they are, there is no intersection.

@@ -12,9 +12,9 @@ for (var i=0; i<ds_list_size(wallygons); i++) {
 		var y1 = y;
 		var x2 = wallygons[| i].points_x[| j];
 		var y2 = wallygons[| i].points_y[| j];
-		ds_list_add(dirlist, point_direction(x1, y1, x2, y2)-0.1)
-		ds_list_add(dirlist, point_direction(x1, y1, x2, y2))
-		ds_list_add(dirlist, point_direction(x1, y1, x2, y2)+0.1)
+		ds_list_add(dirlist, point_direction(x1, y1, x2, y2)-0.1);
+		ds_list_add(dirlist, point_direction(x1, y1, x2, y2));
+		ds_list_add(dirlist, point_direction(x1, y1, x2, y2)+0.1);
 	}
 }
 
@@ -29,8 +29,8 @@ draw_primitive_begin(pr_trianglelist);
 		var x1 = x;
 		var y1 = y;
 		
-		var klength1 = 1;
-		var klength2 = 1;
+		var klength1 = 0;
+		var klength2 = 0;
 		var dir1 = dirlist[| i];
 		var dir2 = dirlist[| (i+1)%listsize];
 				
